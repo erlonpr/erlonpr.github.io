@@ -1,0 +1,14 @@
+@charset "UTF8";
+body {
+    background-color: transparent;
+    font-family: monospace;
+}
+header#header {
+    text-align: center;
+}
+div#interface {
+    width: 75%;
+    margin: auto auto 0px auto;
+    background-color: #dddddd;
+    font-size: 48px;
+}
