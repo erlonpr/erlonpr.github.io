@@ -3,12 +3,19 @@ body {
     background-color: transparent;
     font-family: monospace;
 }
-header#header {
+header.page_header, p.subtitle {
     text-align: center;
 }
-div#interface {
+section.interface {
     width: 75%;
-    margin: auto auto 0px auto;
-    background-color: #dddddd;
+    margin: -30px auto 0px auto;
+    background-color: #e7e7e7;
     font-size: 48px;
+}
+a {
+    color: #3998d6;
+    text-decoration: none;
+}
+footer {
+    text-align: center;
 }
