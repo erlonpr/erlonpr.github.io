@@ -16,6 +16,11 @@ a {
     color: #3998d6;
     text-decoration: none;
 }
+
+i#logo {
+  color: #5fba7d;
+}
+
 footer {
     text-align: center;
 }
