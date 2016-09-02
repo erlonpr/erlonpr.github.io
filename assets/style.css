@@ -1,17 +1,26 @@
 @charset "UTF8";
+
 body {
     background-color: transparent;
     font-family: monospace;
 }
+
 header.page_header, p.subtitle {
     text-align: center;
 }
+
+/* corpo da página */
 section.interface {
     width: 75%;
     margin: -30px auto 0px auto;
     background-color: #e7e7e7;
     font-size: 48px;
 }
+
+ul li {
+    cursor: pointer;
+}
+
 a {
     color: #3998d6;
     text-decoration: none;
@@ -23,4 +32,8 @@ i#logo {
 
 footer {
     text-align: center;
+}
+
+.reading {
+    color: #3998d6;
 }
