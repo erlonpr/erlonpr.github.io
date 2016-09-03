@@ -21,6 +21,11 @@ ul li {
     cursor: pointer;
 }
 
+.description {
+    font-style: italic;
+    color: #3998d6;
+}
+
 a {
     color: #3998d6;
     text-decoration: none;
@@ -35,5 +40,9 @@ footer {
 }
 
 .reading {
-    color: #3998d6;
+    font-weight: bold;
+}
+
+.sub-description {
+    color: #606060;
 }
