@@ -6,7 +6,8 @@ var main = function() {
   
     $('.item').click(function() {
         
-        $('.description').hide(); 
+        $('.description').hide();
+        // $('.sub-description').hide();            o erro esta aqui
         $(this).children('.description').show();
         
         $('.item').removeClass('reading');
