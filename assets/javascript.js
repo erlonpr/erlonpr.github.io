@@ -3,10 +3,14 @@ var main = function() {
     $('.description').hide();
     $('.sub-description').hide();
     
+    // $('.subject').click(function() {
+    //     $(this).children('.list').toggle();
+    // });
   
     $('.item').click(function() {
         
         $('.description').hide();
+        
         // $('.sub-description').hide();            o erro esta aqui
         $(this).children('.description').show();
         
@@ -19,6 +23,17 @@ var main = function() {
         $('.sub-description').hide();
         $(this).children('.sub-description').show();
     });
+    
+    
+    $('.page_header').click(function() {
+        $('.interface').toggle();
+    });    
+    
+    
+     
+    
+    
+    
 };
 
 $(document).ready(main);
