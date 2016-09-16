@@ -6,34 +6,29 @@ var main = function() {
     // $('.subject').click(function() {
     //     $(this).children('.list').toggle();
     // });
-  
-    $('.item').click(function() {
-        
+    
+    $('.item').on( "click", function() {        
         $('.description').hide();
-        
-        // $('.sub-description').hide();            o erro esta aqui
+                     
         $(this).children('.description').show();
-        
+               
         $('.item').removeClass('reading');
         $(this).addClass('reading');
-   
+    });
+
+    $('.item').mouseup(function() {
+        $('.sub-description').hide();
     });
     
-    $('.sub-item').click(function() {
+    $('.sub-item').click(function() { 
         $('.sub-description').hide();
-        $(this).children('.sub-description').show();
+        $(this).children('.sub-description').show();          
     });
     
     
     $('.page_header').click(function() {
         $('.interface').toggle();
-    });    
-    
-    
-     
-    
-    
-    
+    });        
 };
 
 $(document).ready(main);
