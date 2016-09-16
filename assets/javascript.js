@@ -8,12 +8,13 @@ var main = function() {
     // });
     
     $('.item').on( "click", function() {        
+        
         $('.description').hide();
-                     
         $(this).children('.description').show();
                
         $('.item').removeClass('reading');
         $(this).addClass('reading');
+        
     });
 
     $('.item').mouseup(function() {
@@ -27,7 +28,10 @@ var main = function() {
     
     
     $('.page_header').click(function() {
-        $('.interface').toggle();
+        $('.interface').toggle('slow');
+        
+        $('.description').hide();
+        $('.item').removeClass('reading');
     });        
 };
 
